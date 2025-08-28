@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="styles/survey.css">
+    <!-- Đường dẫn tuyệt đối để load CSS trên Render -->
+    <link rel="stylesheet" href="/styles/survey.css">
 </head>
 <body>
     <!-- Logo -->
     <img src="images/murachlogo.jpg" alt="Murach Logo" style="width:150px; margin-bottom:20px;">
 
-    <form action="survey" method="post">
+    <!-- Submit thẳng tới thanks.jsp -->
+    <form action="thanks.jsp" method="post">
         <h1>Survey</h1>
         <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
 
